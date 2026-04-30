@@ -1,0 +1,727 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BP4D_DEMO",
+    "description": "Blueprint4D ASF Demo endpoints",
+    "version": "1.0.0"
+  },
+  "tags": [],
+  "paths": {
+    "/operators": {
+      "get": {
+        "summary": "Operators",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "operators": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/operatorId"
+                    }
+                  }
+                },
+                "required": [
+                  "operators"
+                ]
+              },
+              "example": ""
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "headers": {}
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      },
+      "post": {
+        "summary": "Operators Filtered",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "operators": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/operatorId"
+                    }
+                  }
+                },
+                "required": [
+                  "operators"
+                ]
+              },
+              "example": {
+                "filters": [
+                  {
+                    "fieldname": "startsWith",
+                    "fieldvalue": "KC%"
+                  }
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            },
+            "headers": {}
+          },
+          "204": {
+            "$ref": "#/components/responses/asfNoData",
+            "description": ""
+          },
+          "400": {
+            "$ref": "#/components/responses/asfBadRequest",
+            "description": ""
+          },
+          "404": {
+            "$ref": "#/components/responses/asfNotFound",
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/operators/{operatorId}": {
+      "get": {
+        "summary": "Operator Details",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "operatorId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "example": "KC_IB_PS_APIM",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "operatorDetails": {
+                      "$ref": "#/components/schemas/operatorDetails"
+                    }
+                  },
+                  "required": [
+                    "operatorDetails"
+                  ]
+                }
+              }
+            },
+            "headers": {}
+          },
+          "400": {
+            "$ref": "#/components/responses/asfBadRequest",
+            "description": ""
+          },
+          "404": {
+            "$ref": "#/components/responses/asfNotFound",
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/operators/{operatorId}/roles": {
+      "get": {
+        "summary": "Operator Roles",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "operatorId",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "example": "hansonita1651c",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/operatorRoles"
+                }
+              }
+            },
+            "headers": {}
+          },
+          "204": {
+            "$ref": "#/components/responses/asfNoData",
+            "description": ""
+          },
+          "400": {
+            "$ref": "#/components/responses/asfBadRequest",
+            "description": ""
+          },
+          "404": {
+            "$ref": "#/components/responses/asfNotFound",
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/operatorsdoc": {
+      "get": {
+        "summary": "Operators (Document)",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/operatorsDoc"
+                }
+              }
+            },
+            "headers": {}
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/roles": {
+      "get": {
+        "summary": "Roles",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "roles": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/roleName"
+                      }
+                    }
+                  }
+                },
+                "example": {
+                  "roles": [
+                    "ACM Administrator",
+                    "ADS Designer",
+                    "AG Composer Administrator",
+                    "AG Composer User",
+                    "AM Administrator",
+                    "AM Administrator NLD"
+                  ]
+                }
+              }
+            },
+            "headers": {}
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/roles/{roleName}": {
+      "get": {
+        "summary": "Role Details",
+        "deprecated": false,
+        "description": "Role details",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "roleName",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "example": "ADS Designer",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                },
+                "example": {
+                  "roleDetails": {
+                    "rolename": "ADS Designer",
+                    "version": 1,
+                    "roleType": "U",
+                    "roleDescription": "ADS Designer",
+                    "roleStatus": "A",
+                    "isRoleQueryEnabled": false,
+                    "roleQueryName ": "",
+                    "lastUpdatedDatetime": "2022-06-03 19:43:47.927387"
+                  }
+                }
+              }
+            },
+            "headers": {}
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    },
+    "/roles/{roleName}/permissions": {
+      "get": {
+        "summary": "Role Permissions",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "roleName",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "example": "ADS Designer",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/permissionsList"
+                },
+                "example": {
+                  "rolePermissions": {
+                    "roleName": "ADS Designer",
+                    "permissions": [
+                      "PTPT3500"
+                    ]
+                  }
+                }
+              }
+            },
+            "headers": {}
+          }
+        },
+        "security": [
+          {
+            "basic": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "operators": {
+        "type": "object",
+        "properties": {
+          "operators": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/operatorId"
+            }
+          }
+        },
+        "title": "operator list",
+        "required": [
+          "operators"
+        ]
+      },
+      "operatorId": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 30,
+        "pattern": "^\\w+$",
+        "description": "operator ID"
+      },
+      "operatorDetails": {
+        "type": "object",
+        "properties": {
+          "operatorId": {
+            "description": "operator ID",
+            "$ref": "#/components/schemas/operatorId"
+          },
+          "employeeId": {
+            "type": "string",
+            "description": "employee ID",
+            "title": "",
+            "maxLength": 11,
+            "nullable": true
+          },
+          "operatorDescription": {
+            "type": "string",
+            "description": "operator definition description",
+            "title": "",
+            "maxLength": 30,
+            "nullable": true
+          },
+          "operatorClass": {
+            "type": "string",
+            "description": "operator class",
+            "title": "",
+            "maxLength": 30,
+            "nullable": true
+          },
+          "rowSecurityClass": {
+            "type": "string",
+            "description": "row security class",
+            "title": "",
+            "maxLength": 30,
+            "nullable": true
+          },
+          "processProfileClass": {
+            "type": "string",
+            "description": "process profile class",
+            "title": "",
+            "maxLength": 30,
+            "nullable": true
+          },
+          "failedLogins": {
+            "type": "number",
+            "description": "failed logins (count)"
+          },
+          "isLocked": {
+            "type": "boolean",
+            "description": "account is locked"
+          },
+          "lastSignonDatetime": {
+            "type": "string",
+            "title": "",
+            "description": "last signon datetime"
+          }
+        },
+        "required": [
+          "operatorId",
+          "employeeId",
+          "operatorDescription",
+          "operatorClass",
+          "rowSecurityClass",
+          "processProfileClass",
+          "isLocked",
+          "lastSignonDatetime",
+          "failedLogins"
+        ]
+      },
+      "operatorRoles": {
+        "type": "object",
+        "properties": {
+          "operatorRoles": {
+            "type": "object",
+            "properties": {
+              "operatorId": {
+                "description": "operator ID",
+                "$ref": "#/components/schemas/operatorId"
+              },
+              "roles": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/roleName"
+                }
+              }
+            },
+            "required": [
+              "operatorId",
+              "roles"
+            ]
+          }
+        },
+        "required": [
+          "operatorRoles"
+        ]
+      },
+      "filters": {
+        "type": "object",
+        "properties": {
+          "filters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "fieldname": {
+                  "type": "string",
+                  "description": "field name",
+                  "maxLength": 30
+                },
+                "fieldvalue": {
+                  "type": "string",
+                  "description": "field value",
+                  "maxLength": 30
+                }
+              },
+              "required": [
+                "fieldname",
+                "fieldvalue"
+              ]
+            }
+          }
+        },
+        "required": [
+          "filters"
+        ]
+      },
+      "roles": {
+        "type": "object",
+        "properties": {
+          "roles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/roleName"
+            }
+          }
+        },
+        "title": "role list"
+      },
+      "roleName": {
+        "type": "string",
+        "description": "role name",
+        "minLength": 2,
+        "maxLength": 30,
+        "pattern": "^[^';:&\\(\\)\\[\\]\\/\\\\\\<\\>]+$"
+      },
+      "roleDetails": {
+        "type": "object",
+        "properties": {
+          "roleName": {
+            "description": "role name",
+            "$ref": "#/components/schemas/roleName"
+          },
+          "version": {
+            "type": "integer",
+            "description": "version number"
+          },
+          "roleType": {
+            "type": "string",
+            "description": "role type",
+            "title": "",
+            "minLength": 1,
+            "maxLength": 1
+          },
+          "roleDescription": {
+            "type": "string",
+            "description": "role description",
+            "title": "",
+            "maxLength": 30
+          },
+          "roleStatus": {
+            "type": "string",
+            "description": "role status",
+            "title": "",
+            "minLength": 1,
+            "maxLength": 1
+          },
+          "isRoleQueryEnabled": {
+            "type": "boolean",
+            "description": "role is query enabled",
+            "default": false
+          },
+          "roleQueryName": {
+            "type": "string",
+            "description": "role query name",
+            "title": "",
+            "maxLength": 30
+          },
+          "lastUpdatedDatetime": {
+            "type": "string",
+            "title": "",
+            "description": "last updated datetime"
+          }
+        },
+        "required": [
+          "roleName",
+          "version",
+          "roleType",
+          "roleDescription",
+          "roleStatus",
+          "isRoleQueryEnabled",
+          "roleQueryName",
+          "lastUpdatedDatetime"
+        ]
+      },
+      "classId": {
+        "type": "string",
+        "description": "class ID",
+        "minLength": 2,
+        "maxLength": 30,
+        "pattern": "^[^';:&\\(\\)\\[\\]\\/\\\\\\<\\> ]+$"
+      },
+      "permissionsList": {
+        "type": "object",
+        "properties": {
+          "rolePermissions": {
+            "type": "object",
+            "properties": {
+              "roleName": {
+                "description": "role name",
+                "$ref": "#/components/schemas/roleName"
+              },
+              "permissions": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/classId"
+                }
+              }
+            },
+            "required": [
+              "roleName",
+              "permissions"
+            ]
+          }
+        },
+        "title": "permissions list",
+        "required": [
+          "rolePermissions"
+        ]
+      },
+      "operatorsDoc": {
+        "type": "object",
+        "properties": {
+          "operatorsDoc": {
+            "type": "object",
+            "properties": {
+              "operators": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/operatorId"
+                }
+              }
+            },
+            "required": [
+              "operators"
+            ]
+          }
+        },
+        "required": [
+          "operatorsDoc"
+        ]
+      }
+    },
+    "responses": {
+      "asfBadRequest": {
+        "description": "",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        }
+      },
+      "asfNotFound": {
+        "description": "",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        }
+      },
+      "asfNoData": {
+        "description": "",
+        "content": {}
+      }
+    },
+    "securitySchemes": {
+      "basic": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    }
+  },
+  "servers": [],
+  "security": [
+    {
+      "basic": []
+    }
+  ]
+}
