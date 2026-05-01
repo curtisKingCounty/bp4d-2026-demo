@@ -3,12 +3,12 @@
   <instance class="PJM">
     <rowset name="PjmDefn" size="3288" count="1">
       <row>
-        <szLastUpdDttm>2026-04-30-14.14.08.697789</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.28.32.440604</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerID>KC</szObjectOwnerID>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>221</lVersion>
+        <lVersion>223</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szProjectName>BP4D_DEMO</szProjectName>
@@ -16,8 +16,8 @@
         <szProjectDescr>Blueprint 4D ASF Demo Project</szProjectDescr>
         <szSrcDBName>HDEV</szSrcDBName>
         <szSrcOprId>hansonita1651c</szSrcOprId>
-        <szSessionId>9f2e2afa-44d9-11f1-99ba-89d1629565bd</szSessionId>
-        <szRunDtTm>2026-04-30-14.14.48.698263</szRunDtTm>
+        <szSessionId>ba5b783d-44f4-11f1-99ba-89d1629565bd</szSessionId>
+        <szRunDtTm>2026-04-30-17.28.51.440626</szRunDtTm>
         <szTgtServerName></szTgtServerName>
         <szTgtDBName></szTgtDBName>
         <szTgtOprId></szTgtOprId>
@@ -52,7 +52,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -70,7 +70,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -88,7 +88,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -106,7 +106,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -124,7 +124,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -142,7 +142,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -160,7 +160,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -178,7 +178,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -196,7 +196,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -214,7 +214,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -340,7 +340,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -376,7 +376,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -412,7 +412,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -448,7 +448,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -484,7 +484,7 @@
               <eTargetStatus>0</eTargetStatus>
               <eUpgradeAction>0</eUpgradeAction>
               <bTakeAction>1</bTakeAction>
-              <bCopyDone>0</bCopyDone>
+              <bCopyDone>1</bCopyDone>
               <eRowStatus>3</eRowStatus>
             </row>
             <row>
@@ -2645,12 +2645,12 @@ end-method;
         <m_nElementNameCount>0</m_nElementNameCount>
         <m_pElementNames>HANDLE</m_pElementNames>
         <m_nMaxElementId>2</m_nMaxElementId>
-        <szLastUpdDttm>2026-04-29-12.29.12.675946</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.27.35.964420</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>95</lVersion>
+        <lVersion>99</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <m_key.m_atmPackageName>ASF_SERVICE</m_key.m_atmPackageName>
@@ -2851,12 +2851,12 @@ end-method;
         <m_bNoNamespace>0</m_bNoNamespace>
         <m_nAttributes>0</m_nAttributes>
         <m_bAbsolutePath>0</m_bAbsolutePath>
-        <szLastUpdDttm>2026-04-29-12.29.12.689652</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.27.35.978956</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>273</lVersion>
+        <lVersion>285</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <m_key.m_atmPhysicalSchemaName>XML</m_key.m_atmPhysicalSchemaName>
@@ -3056,12 +3056,12 @@ end-method;
   <instance class="DSCMA">
     <rowset name="DocScmadfn" size="1392" count="1">
       <row>
-        <szLastUpdDttm>2026-04-29-12.29.11.892661</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.27.35.282871</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>93</lVersion>
+        <lVersion>97</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szIb_packageid>ASF_SERVICE</szIb_packageid>
@@ -3161,12 +3161,12 @@ end-method;
         <m_atmPrimaryJsonName>BP4D_DEMO</m_atmPrimaryJsonName>
         <m_bHideObject>1</m_bHideObject>
         <m_bFilterBlankElements>1</m_bFilterBlankElements>
-        <szLastUpdDttm>2026-04-29-12.29.12.705898</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.27.35.994426</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>274</lVersion>
+        <lVersion>286</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <m_key.m_atmPhysicalSchemaName>JSON</m_key.m_atmPhysicalSchemaName>
@@ -3343,12 +3343,12 @@ end-method;
     <rowset name="HTMLDEFN" size="504" count="1">
       <row>
         <m_atmPrimaryHtmlName>BP4D_DEMO</m_atmPrimaryHtmlName>
-        <szLastUpdDttm>2026-04-29-12.29.12.737163</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.27.36.025161</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>275</lVersion>
+        <lVersion>287</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <m_key.m_atmPhysicalSchemaName>HTML</m_key.m_atmPhysicalSchemaName>
@@ -3513,12 +3513,12 @@ end-method;
   <instance class="IBSA">
     <rowset name="Ibappldefn" size="2344" count="1">
       <row>
-        <szLastUpdDttm>2026-04-29-12.29.11.892332</szLastUpdDttm>
+        <szLastUpdDttm>2026-04-30-17.27.35.282437</szLastUpdDttm>
         <szLastUpdOprId>hansonita1651c</szLastUpdOprId>
         <szObjectOwnerId></szObjectOwnerId>
         <nUseCount>1</nUseCount>
         <bUseUpdate>1</bUseUpdate>
-        <lVersion>44</lVersion>
+        <lVersion>46</lVersion>
         <lSwapVersion>0</lSwapVersion>
         <nSwapNum>0</nSwapNum>
         <szPtibapplname>BP4D_DEMO</szPtibapplname>
@@ -3767,7 +3767,19 @@ end-method;
                           </lpIbparam>
                           <nIbparamCnt>2</nIbparamCnt>
                           <lpIbrslt_state> POINTER
-                            <rowset name="Ibrslt_state" size="144" count="1">
+                            <rowset name="Ibrslt_state" size="432" count="3">
+                              <row>
+                                <szPtibrslt_state>Forbidden</szPtibrslt_state>
+                                <nHTTPStatusCode>403</nHTTPStatusCode>
+                                <szIbtransactionid>c20eabbc-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>NoData</szPtibrslt_state>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>c20ea9b4-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+                                <cPtib_rslt_cat>S</cPtib_rslt_cat>
+                              </row>
                               <row>
                                 <szPtibrslt_state>Success</szPtibrslt_state>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
@@ -3776,18 +3788,26 @@ end-method;
                               </row>
                             </rowset>
                           </lpIbrslt_state>
-                          <nIbrslt_stateCnt>1</nIbrslt_stateCnt>
+                          <nIbrslt_stateCnt>3</nIbrslt_stateCnt>
                           <lpIbhdrprop>POINTER</lpIbhdrprop>
                           <nIbhdrpropCnt>0</nIbhdrpropCnt>
                           <lpIbhttp_code> POINTER
-                            <rowset name="Ibhttp_code" size="80" count="1">
+                            <rowset name="Ibhttp_code" size="240" count="3">
                               <row>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
                                 <szIbtransactionid>d9660eee-4346-11f1-9b59-39f17da1caa4</szIbtransactionid>
                               </row>
+                              <row>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>c20ecaca-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+                              </row>
+                              <row>
+                                <nHTTPStatusCode>403</nHTTPStatusCode>
+                                <szIbtransactionid>c20ecc1e-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+                              </row>
                             </rowset>
                           </lpIbhttp_code>
-                          <nIbhttp_codeCnt>1</nIbhttp_codeCnt>
+                          <nIbhttp_codeCnt>3</nIbhttp_codeCnt>
                         </row>
                       </rowset>
                     </lpIbmethod>
@@ -3927,11 +3947,17 @@ end-method;
                           </lpIbparam>
                           <nIbparamCnt>1</nIbparamCnt>
                           <lpIbrslt_state> POINTER
-                            <rowset name="Ibrslt_state" size="432" count="3">
+                            <rowset name="Ibrslt_state" size="576" count="4">
                               <row>
                                 <szPtibrslt_state>BadRequest</szPtibrslt_state>
                                 <nHTTPStatusCode>400</nHTTPStatusCode>
                                 <szIbtransactionid>aa3124ac-4359-11f1-9b59-39f17da1caa4</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>Forbidden</szPtibrslt_state>
+                                <nHTTPStatusCode>403</nHTTPStatusCode>
+                                <szIbtransactionid>c20f54b8-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
                                 <cPtib_rslt_cat>F</cPtib_rslt_cat>
                               </row>
                               <row>
@@ -3948,11 +3974,11 @@ end-method;
                               </row>
                             </rowset>
                           </lpIbrslt_state>
-                          <nIbrslt_stateCnt>3</nIbrslt_stateCnt>
+                          <nIbrslt_stateCnt>4</nIbrslt_stateCnt>
                           <lpIbhdrprop>POINTER</lpIbhdrprop>
                           <nIbhdrpropCnt>0</nIbhdrpropCnt>
                           <lpIbhttp_code> POINTER
-                            <rowset name="Ibhttp_code" size="240" count="3">
+                            <rowset name="Ibhttp_code" size="320" count="4">
                               <row>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
                                 <szIbtransactionid>a2ab7da8-4346-11f1-9b59-39f17da1caa4</szIbtransactionid>
@@ -3962,12 +3988,16 @@ end-method;
                                 <szIbtransactionid>aa31328a-4359-11f1-9b59-39f17da1caa4</szIbtransactionid>
                               </row>
                               <row>
+                                <nHTTPStatusCode>403</nHTTPStatusCode>
+                                <szIbtransactionid>c20f9ea0-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+                              </row>
+                              <row>
                                 <nHTTPStatusCode>404</nHTTPStatusCode>
                                 <szIbtransactionid>aa3133ca-4359-11f1-9b59-39f17da1caa4</szIbtransactionid>
                               </row>
                             </rowset>
                           </lpIbhttp_code>
-                          <nIbhttp_codeCnt>3</nIbhttp_codeCnt>
+                          <nIbhttp_codeCnt>4</nIbhttp_codeCnt>
                         </row>
                       </rowset>
                     </lpIbmethod>
@@ -4320,7 +4350,19 @@ end-method;
                           </lpIbparam>
                           <nIbparamCnt>1</nIbparamCnt>
                           <lpIbrslt_state> POINTER
-                            <rowset name="Ibrslt_state" size="144" count="1">
+                            <rowset name="Ibrslt_state" size="432" count="3">
+                              <row>
+                                <szPtibrslt_state>Forbidden</szPtibrslt_state>
+                                <nHTTPStatusCode>403</nHTTPStatusCode>
+                                <szIbtransactionid>8d21094e-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>NoData</szPtibrslt_state>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>8d210746-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>S</cPtib_rslt_cat>
+                              </row>
                               <row>
                                 <szPtibrslt_state>Success</szPtibrslt_state>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
@@ -4329,18 +4371,26 @@ end-method;
                               </row>
                             </rowset>
                           </lpIbrslt_state>
-                          <nIbrslt_stateCnt>1</nIbrslt_stateCnt>
+                          <nIbrslt_stateCnt>3</nIbrslt_stateCnt>
                           <lpIbhdrprop>POINTER</lpIbhdrprop>
                           <nIbhdrpropCnt>0</nIbhdrpropCnt>
                           <lpIbhttp_code> POINTER
-                            <rowset name="Ibhttp_code" size="80" count="1">
+                            <rowset name="Ibhttp_code" size="240" count="3">
                               <row>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
                                 <szIbtransactionid>d7ea0d8e-43ed-11f1-bc86-ab883e00ceda</szIbtransactionid>
                               </row>
+                              <row>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>8d212bae-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
+                              <row>
+                                <nHTTPStatusCode>403</nHTTPStatusCode>
+                                <szIbtransactionid>8d212d34-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
                             </rowset>
                           </lpIbhttp_code>
-                          <nIbhttp_codeCnt>1</nIbhttp_codeCnt>
+                          <nIbhttp_codeCnt>3</nIbhttp_codeCnt>
                         </row>
                       </rowset>
                     </lpIbmethod>
@@ -4463,7 +4513,25 @@ end-method;
                           </lpIbparam>
                           <nIbparamCnt>1</nIbparamCnt>
                           <lpIbrslt_state> POINTER
-                            <rowset name="Ibrslt_state" size="144" count="1">
+                            <rowset name="Ibrslt_state" size="576" count="4">
+                              <row>
+                                <szPtibrslt_state>BadRequest</szPtibrslt_state>
+                                <nHTTPStatusCode>400</nHTTPStatusCode>
+                                <szIbtransactionid>8d215502-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>NoContent</szPtibrslt_state>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>8d215336-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>S</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>NotFound</szPtibrslt_state>
+                                <nHTTPStatusCode>404</nHTTPStatusCode>
+                                <szIbtransactionid>8d215692-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
                               <row>
                                 <szPtibrslt_state>Success</szPtibrslt_state>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
@@ -4472,18 +4540,30 @@ end-method;
                               </row>
                             </rowset>
                           </lpIbrslt_state>
-                          <nIbrslt_stateCnt>1</nIbrslt_stateCnt>
+                          <nIbrslt_stateCnt>4</nIbrslt_stateCnt>
                           <lpIbhdrprop>POINTER</lpIbhdrprop>
                           <nIbhdrpropCnt>0</nIbhdrpropCnt>
                           <lpIbhttp_code> POINTER
-                            <rowset name="Ibhttp_code" size="80" count="1">
+                            <rowset name="Ibhttp_code" size="320" count="4">
                               <row>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
                                 <szIbtransactionid>4d68919c-43f4-11f1-aa2c-bf2052395488</szIbtransactionid>
                               </row>
+                              <row>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>8d216358-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
+                              <row>
+                                <nHTTPStatusCode>400</nHTTPStatusCode>
+                                <szIbtransactionid>8d216560-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
+                              <row>
+                                <nHTTPStatusCode>404</nHTTPStatusCode>
+                                <szIbtransactionid>8d2166dc-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
                             </rowset>
                           </lpIbhttp_code>
-                          <nIbhttp_codeCnt>1</nIbhttp_codeCnt>
+                          <nIbhttp_codeCnt>4</nIbhttp_codeCnt>
                         </row>
                       </rowset>
                     </lpIbmethod>
@@ -4581,7 +4661,25 @@ end-method;
                           </lpIbparam>
                           <nIbparamCnt>1</nIbparamCnt>
                           <lpIbrslt_state> POINTER
-                            <rowset name="Ibrslt_state" size="144" count="1">
+                            <rowset name="Ibrslt_state" size="576" count="4">
+                              <row>
+                                <szPtibrslt_state>BadRequest</szPtibrslt_state>
+                                <nHTTPStatusCode>400</nHTTPStatusCode>
+                                <szIbtransactionid>8d21b56a-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>NoContent</szPtibrslt_state>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>8d21b2f4-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>S</cPtib_rslt_cat>
+                              </row>
+                              <row>
+                                <szPtibrslt_state>NotFound</szPtibrslt_state>
+                                <nHTTPStatusCode>404</nHTTPStatusCode>
+                                <szIbtransactionid>8d21b718-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                                <cPtib_rslt_cat>F</cPtib_rslt_cat>
+                              </row>
                               <row>
                                 <szPtibrslt_state>Success</szPtibrslt_state>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
@@ -4590,18 +4688,30 @@ end-method;
                               </row>
                             </rowset>
                           </lpIbrslt_state>
-                          <nIbrslt_stateCnt>1</nIbrslt_stateCnt>
+                          <nIbrslt_stateCnt>4</nIbrslt_stateCnt>
                           <lpIbhdrprop>POINTER</lpIbhdrprop>
                           <nIbhdrpropCnt>0</nIbhdrpropCnt>
                           <lpIbhttp_code> POINTER
-                            <rowset name="Ibhttp_code" size="80" count="1">
+                            <rowset name="Ibhttp_code" size="320" count="4">
                               <row>
                                 <nHTTPStatusCode>200</nHTTPStatusCode>
                                 <szIbtransactionid>983c51fa-43f8-11f1-aa2c-bf2052395488</szIbtransactionid>
                               </row>
+                              <row>
+                                <nHTTPStatusCode>204</nHTTPStatusCode>
+                                <szIbtransactionid>8d21cdc0-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
+                              <row>
+                                <nHTTPStatusCode>400</nHTTPStatusCode>
+                                <szIbtransactionid>8d21cfc8-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
+                              <row>
+                                <nHTTPStatusCode>404</nHTTPStatusCode>
+                                <szIbtransactionid>8d21d126-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+                              </row>
                             </rowset>
                           </lpIbhttp_code>
-                          <nIbhttp_codeCnt>1</nIbhttp_codeCnt>
+                          <nIbhttp_codeCnt>4</nIbhttp_codeCnt>
                         </row>
                       </rowset>
                     </lpIbmethod>
@@ -5045,7 +5155,7 @@ end-method;
         <lpIbappenum>POINTER</lpIbappenum>
         <nIbappenumCnt>0</nIbappenumCnt>
         <lpIbapptrans> POINTER
-          <rowset name="Ibapptrans" size="18720" count="60">
+          <rowset name="Ibapptrans" size="25584" count="82">
             <row>
               <szIbtransactionid>0d556564-43ed-11f1-aa2c-bf2052395488</szIbtransactionid>
               <szDescr></szDescr>
@@ -5349,6 +5459,134 @@ end-method;
               <nIbapptranslangCnt>0</nIbapptranslangCnt>
             </row>
             <row>
+              <szIbtransactionid>8d210746-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>No data found</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21094e-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Not authorized</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d212bae-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>No Data</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d212d34-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Not Authorized</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d215336-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>No content</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d215502-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Bad request</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d215692-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Not found</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d216358-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>No Content</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d216560-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Bad Request</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d2166dc-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Not Found</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21b2f4-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>No content</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21b56a-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Bad request</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21b718-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Not found</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21cdc0-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>No Content</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21cfc8-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Bad Request</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>8d21d126-44f4-11f1-8e88-2f1d2f1e0203</szIbtransactionid>
+              <szDescr>Not Found</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
               <szIbtransactionid>8d4988b4-4347-11f1-9b59-39f17da1caa4</szIbtransactionid>
               <szDescr></szDescr>
               <pszDescrlong> POINTER
@@ -5525,6 +5763,54 @@ end-method;
               <nIbapptranslangCnt>0</nIbapptranslangCnt>
             </row>
             <row>
+              <szIbtransactionid>c20ea9b4-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+              <szDescr>No data found</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>c20eabbc-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+              <szDescr>Not authorized</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>c20ecaca-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+              <szDescr>No Data</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>c20ecc1e-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+              <szDescr>Not Authorized</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>c20f54b8-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+              <szDescr>Not authorized</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
+              <szIbtransactionid>c20f9ea0-44f3-11f1-bf65-29f811f671e4</szIbtransactionid>
+              <szDescr>Not Authorized</szDescr>
+              <pszDescrlong>POINTER</pszDescrlong>
+              <nDescrlongLen>0</nDescrlongLen>
+              <lpIbapptranslang>POINTER</lpIbapptranslang>
+              <nIbapptranslangCnt>0</nIbapptranslangCnt>
+            </row>
+            <row>
               <szIbtransactionid>d7ea05a0-43ed-11f1-bc86-ab883e00ceda</szIbtransactionid>
               <szDescr></szDescr>
               <pszDescrlong> POINTER
@@ -5594,7 +5880,7 @@ end-method;
             </row>
           </rowset>
         </lpIbapptrans>
-        <nIbapptransCnt>60</nIbapptransCnt>
+        <nIbapptransCnt>82</nIbapptransCnt>
         <lpIbappllang>POINTER</lpIbappllang>
         <nIbappllangCnt>0</nIbappllangCnt>
         <szLanguageCd>ENG</szLanguageCd>
