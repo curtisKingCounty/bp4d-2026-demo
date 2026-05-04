@@ -42,8 +42,18 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "properties": {}
+                  "$ref": "#/components/schemas/operators"
+                },
+                "example": {
+                  "operators": [
+                    "ABSMITH",
+                    "ACARR",
+                    "API_GUEST",
+                    "ASMITH",
+                    "BFRANCISCO",
+                    "BLOCHERTY",
+                    "BSULLIVAN"
+                  ]
                 }
               }
             },
@@ -79,13 +89,28 @@
                   "operators"
                 ]
               },
-              "example": {
-                "filters": [
-                  {
-                    "fieldname": "startsWith",
-                    "fieldvalue": "KC%"
-                  }
-                ]
+              "examples": {
+                "1": {
+                  "value": {
+                    "filters": [
+                      {
+                        "fieldname": "startsWith",
+                        "fieldvalue": "B%"
+                      }
+                    ]
+                  },
+                  "summary": "POST Body"
+                },
+                "2": {
+                  "value": {
+                    "operators": [
+                      "BFRANCISCO",
+                      "BLOCHERTY",
+                      "BSULLIVAN"
+                    ]
+                  },
+                  "summary": "Filterted Response"
+                }
               }
             }
           },
@@ -136,7 +161,7 @@
             "in": "path",
             "description": "",
             "required": true,
-            "example": "KC_IB_PS_APIM",
+            "example": "BLOCHERTY",
             "schema": {
               "type": "string"
             }
@@ -157,6 +182,19 @@
                   "required": [
                     "operatorDetails"
                   ]
+                },
+                "example": {
+                  "operatorDetails": {
+                    "operatorId": "BLOCHERTY",
+                    "employeeId": "KU0007",
+                    "operatorDescription": "Betty Locherty",
+                    "operatorClass": "HCPPUSA",
+                    "rowSecurityClass": "HCDPUSA",
+                    "processProfileClass": "HCSPPRFL",
+                    "failedLogins": 0,
+                    "isLocked": true,
+                    "lastSignonDatetime": "2025-08-14 20:48:43.634867"
+                  }
                 }
               }
             },
@@ -190,7 +228,7 @@
             "in": "path",
             "description": "",
             "required": true,
-            "example": "hansonita1651c",
+            "example": "BLOCHERTY",
             "schema": {
               "type": "string"
             }
@@ -203,6 +241,20 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/operatorRoles"
+                },
+                "example": {
+                  "operatorRoles": {
+                    "operatorId": "BLOCHERTY",
+                    "roles": [
+                      "Administer HR Dashboards",
+                      "Approvals Fluid",
+                      "Benefits Self Serv Enrollmnt",
+                      "Benefits Self Service",
+                      "Benefits Self Service USA",
+                      "Dotted Line",
+                      "EOIC Insights Catalog"
+                    ]
+                  }
                 }
               }
             },
@@ -242,6 +294,19 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/operatorsDoc"
+                },
+                "example": {
+                  "operatorsDoc": {
+                    "operators": [
+                      "ABSMITH",
+                      "ACARR",
+                      "API_GUEST",
+                      "ASMITH",
+                      "BFRANCISCO",
+                      "BLOCHERTY",
+                      "BSULLIVAN"
+                    ]
+                  }
                 }
               }
             },
